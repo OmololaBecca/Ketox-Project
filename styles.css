@@ -1,0 +1,416 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent-container .hero-page{
+    background-image: url("./Asset/Ketox\ 2.jpg");
+    padding:50px;
+    
+}
+.hero-text{
+    color:#fff;
+    margin-left: 150px;
+}
+.hero-text h2{
+    font-size: 30px;
+}
+.green{
+    color:greenyellow;
+}
+.bobo{
+    padding: 30px;
+    margin-left:100px;
+}
+.baddo{
+    margin-top: 80px;
+    color:rgb(131, 41, 41);
+    margin-bottom: -60px;
+}
+.tiwa{
+    margin-top: -60px;
+    padding-bottom: 20px;
+}
+.omahlay{
+    margin-left:30px;
+    }
+.align{
+    margin-left: 110px;
+}
+.font-awesome{
+    display: flex;
+    margin-left: 25px;
+    gap:10px;
+}
+.fa{
+    color:goldenrod;
+    font-size: 16px;
+}
+
+.reviews{
+    margin-left: 20px;
+}
+.davido{
+    margin-top: 75px;
+}
+.davido button{
+width:200px;
+height:50px;
+border-radius: 25px;
+background: linear-gradient(90deg,rgb(203, 245, 141),rgb(158, 202, 92),rgb(119, 247, 119));
+color:#fff;
+border: none;
+}
+@media(max-width:600px){
+    .parent-container .hero-page{
+        padding:10px;   
+    }  
+    .hero-text{
+        margin-left: 10px;
+    } 
+    .bobo{
+        padding: 10px;
+        margin-left:150px;
+    }
+    .davido{
+        margin-top: 50px;
+    }
+    .davido button{
+        width:150px;
+        height:40px;
+        
+        }
+    
+}
+.b-img{
+background-image: url(./Asset/ketox-3.png);
+}
+.box-text{
+    padding-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+.idan{
+    height:500px;
+    width:550px;
+    padding-bottom: 50px;
+    margin-left: 300px;
+    border-radius: 25px;
+    border-color:gray;
+    margin-top: 30px;
+    background: rgba(77,82,85,0.2);
+    backdrop-filter: blur(28px);
+}
+.hello{
+    color:#FFF;
+    text-align: center;
+    padding-top:15px;
+}
+.box-one{
+    padding: 15px;
+    color:#fff;
+    text-align: center;
+    }
+    .box-one .vee{
+margin-top: 17px;
+    }
+    .box-two{
+        margin-top:20px;
+    }
+
+.box-two h2{
+    text-align: center;
+    color:#fff;
+    margin-bottom: 15px;
+}
+.shift{
+    margin-left: 20px;
+}
+.shift p{
+    text-align: left;
+    color:#fff;
+    margin-bottom: 10px;
+    font-weight: bold;
+    
+}
+.icon{
+   margin-right: 20px !important; 
+}
+.inline{
+font-weight: lighter !important;
+}
+@media(max-width:600px){
+    .idan{
+        height:700px;
+        width:350px;
+        padding-bottom: 40px;
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .box-two h2{
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+    .icon{
+        display: none !important;
+     }
+    .inline{
+        display: inline-block;
+        }
+        .shift p{
+            margin-bottom: 14px;
+            
+        }
+}
+
+.page-three .three-flex{
+    display:flex;
+    background-color: #181818;
+    gap:40px;
+}
+.three-text{
+    margin-left: 65px;
+}
+.text-one{
+    text-align:center ;
+    padding-top: 58px;
+    color:#fff;
+}
+.text-one h1{
+    color:red;
+}
+.waaow{
+    margin-top: 28px;
+    color:#fff;
+}
+.waaow p{
+    padding-bottom: 18px;
+    color: rgb(124, 123, 123) !important;
+    margin-left: 43px;
+}
+.fa-check-circle{
+    margin-right: 30px;
+    color:gray;
+}
+.three-image img{
+    width:650px;
+    margin-left: 100px;
+}
+@media(max-width:600px){
+    .page-three .three-flex{
+        flex-direction: column-reverse;
+        gap:20px;
+    }
+    .three-image img{
+        width:415px;
+        margin-left: 10px;
+    }
+    .three-text{
+        margin-left: 35px;
+    }
+    .fa-check-circle{
+        margin-right: 20px;   
+    }
+    .waaow p{
+        margin-left: 33px;
+    }
+}
+.page-four{
+    background-color: #181818;
+    padding-top: 30px;
+}
+.card-four{
+    height:600px;
+    width:650px;
+    margin-left: 300px;
+    border-radius: 25px;
+    border-color:gray;
+    background: rgba(77,82,85,0.2);
+    backdrop-filter: blur(28px);
+    color:#ffff;
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.red{
+    color:red;
+    margin-bottom: 10px;
+}
+  
+.machala{
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.foto{
+   text-decoration:line-through;
+}
+.okay{
+    margin-right: 245px;
+}
+.snack{
+    margin-right: 175px;
+}
+.snack-two{
+    margin-left: 53px;
+}
+.babe{
+    margin-left: 86px;
+}
+.pee{
+    margin-top: 15px;
+    color: red !important;
+}
+.price{
+    margin-right: 280px;
+}
+.price-two{
+    margin-left: 70px;
+}
+.input-text{
+    width:450px;
+    border-top: none;
+    border-right: none;
+    background: rgba(77,82,85,0.2);
+    border-bottom: 2px solid #7a7979;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:#fff;
+}
+.enjoy{
+    margin-top: 20px;
+}
+.two-face button{
+         margin-top: 50px;
+        width:200px;
+        height:50px;
+        border-radius: 25px;
+        background: linear-gradient(90deg,rgb(203, 245, 141),rgb(158, 202, 92),rgb(119, 247, 119));
+        color:#fff;
+        border: none;
+        }
+        @media(max-width:600px){
+            .card-four{
+                height:700px;
+                width:350px;
+                margin-left: 50px;
+                padding-top: 20px;
+                padding-bottom: 20px;
+               
+            }
+            .image-four{
+                margin-top: 15px;
+                margin-bottom: 39px;
+            }
+        
+             .okay{
+                 margin-right: 120px;
+             }
+             .babe{
+                margin-left: 93px;
+            }
+            .snack{
+                margin-right: 175px;
+                padding-bottom:6px ;
+                padding-top: 6px;
+            }
+            .snack-two{
+                margin-left: 53px;
+            }
+            .price{
+                margin-right: 80px;
+            }
+            .price-two{
+                margin-left: 135px;
+            }
+            .input-text{
+                width:340px;
+                margin-top: 25px;
+                margin-bottom: 25px;
+            }
+            .two-face button{
+                margin-top: 30px;
+               width:170px;
+               height:40px;
+               }
+        }
+        .page-five{
+            background: #181818;
+            margin-top: -10px;
+        }
+        .flex-five{
+     height:150px;
+    width:650px;
+    margin-left: 300px;
+    background: #141414;
+    color:#ffff;
+    text-align: center;
+    padding-top: 30px;
+    color:#fff;
+        }
+        .image-five{
+            margin-bottom: 20px;
+        }
+        .image-five img{
+            background: #fff;
+            margin: 8px;
+            width:40px;
+            height:18px;
+            border-radius: 2px;
+            object-fit: contain;
+        }
+
+        .oh-no {
+            display:flex;
+            gap:10px;
+            
+        }
+        .veil{
+            margin-left:130px ;
+        }
+        .neo{
+            margin-left:50px ;
+        }
+        .baba{
+            margin-left:90px ;
+        }
+        .fa-caret-right{
+            padding-right: 10px;
+        }
+
+@media(max-width:600px){
+    .flex-five{
+        height:200px;
+       width:350px;
+       margin-left: 50px;
+       padding-top: 30px;
+           }
+
+.image-five{
+    margin-bottom: 15px;
+}
+.image-five img{
+    margin: 5px;
+    
+}
+.who{
+    flex-direction: column;
+}
+.now{
+    flex-direction: column; 
+    margin-top: 6px; 
+}
+.veil{
+    margin-left:0px ;
+}
+.neo{
+    margin-left:0px ;
+}
+.baba{
+    margin-left:0px ;
+}
+}
+
