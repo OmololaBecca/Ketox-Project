@@ -95,10 +95,10 @@ background-image: url(./Asset/ketox-3.png);
     height:500px;
     width:550px;
     padding-bottom: 50px;
-    margin-left: 300px;
+    display:block;
+    margin: 30px  auto 0px auto ;
     border-radius: 25px;
     border-color:gray;
-    margin-top: 30px;
     background: rgba(77,82,85,0.2);
     backdrop-filter: blur(28px);
 }
